@@ -22,9 +22,10 @@ export default function Solutions() {
   return (
     <section
       id="solutions"
-      className="mx-auto flex min-h-screen max-w-7xl flex-col justify-center px-5 py-16 sm:px-8 sm:py-20"
+      className="mx-auto flex min-h-screen max-w-7xl flex-col justify-center px-5 py-16 max-lg:justify-start sm:px-8 sm:py-20"
     >
-      <Reveal className="mb-10 max-w-2xl">
+      {/* On mobile the heading pins to the top while the panels stack under it */}
+      <Reveal className="mb-10 max-w-2xl max-lg:sticky max-lg:top-0 max-lg:z-30 max-lg:bg-ink max-lg:pb-4 max-lg:pt-2">
         <p className="font-mono text-xs tracking-[0.3em] text-accent-2">
           SOLUTIONS
         </p>
@@ -38,8 +39,11 @@ export default function Solutions() {
         {solutions.map((s, i) => (
           <div
             key={s.slug}
-            // grow:1 collapsed, grow:6 on hover → siblings squeeze down
-            className="group relative cursor-pointer overflow-hidden rounded-[1.25rem] border border-white/12 bg-ink-soft shadow-2xl shadow-black/40 lg:grow lg:basis-0 lg:rounded-[2rem] lg:transition-[flex-grow] lg:duration-500 lg:ease-out lg:hover:grow-[6]"
+            // grow:1 collapsed, grow:6 on hover → siblings squeeze down.
+            // Mobile: panels STACK as you scroll (position: sticky) — each locks
+            // near the top and the next slides up over it (sticky-scroll deck).
+            style={{ top: `calc(8rem + ${i * 0.5}rem)` }}
+            className="group relative cursor-pointer overflow-hidden rounded-[1.25rem] border border-white/12 bg-ink-soft shadow-2xl shadow-black/40 max-lg:sticky lg:grow lg:basis-0 lg:rounded-[2rem] lg:transition-[flex-grow] lg:duration-500 lg:ease-out lg:hover:grow-[6]"
           >
             {/* tint + dot texture */}
             <div

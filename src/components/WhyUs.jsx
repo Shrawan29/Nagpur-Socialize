@@ -58,26 +58,28 @@ export default function WhyUs({ showHeader = true }) {
     <section id="why">
       <div className="mx-auto max-w-7xl px-5 py-16 sm:px-8 sm:py-24 md:py-28">
         <div className="grid grid-cols-1 gap-10 lg:grid-cols-2 lg:gap-16">
-          {/* Sticky left panel */}
-          <div className="min-w-0 self-start lg:sticky lg:top-24">
+          {/* Left panel. On mobile it becomes a compact sticky heading bar that
+              pins to the top while the cards stack/scroll under it; the intro +
+              strip are hidden there to keep the pinned bar short. */}
+          <div className="min-w-0 self-start max-lg:sticky max-lg:top-0 max-lg:z-30 max-lg:bg-ink max-lg:pb-4 max-lg:pt-2 lg:sticky lg:top-24">
             {showHeader && (
               <>
                 <p className="font-mono text-xs tracking-[0.3em] text-accent-2">
                   WHY CHOOSE US
                 </p>
-                <h2 className="mt-4 font-poster text-4xl uppercase leading-[0.95] tracking-tight sm:text-6xl">
+                <h2 className="mt-3 font-poster text-2xl uppercase leading-[0.95] tracking-tight sm:text-3xl lg:mt-4 lg:text-6xl">
                   Seven reasons brands keep coming back.
                 </h2>
               </>
             )}
-            <p className="mt-5 max-w-md leading-relaxed text-neutral-400">
+            <p className="mt-5 max-w-md leading-relaxed text-neutral-400 max-lg:hidden">
               From one-stop production to data-driven reporting — here&apos;s
               what keeps brands with us. Scroll through.
             </p>
 
             {/* Diagonal accent strip — lives inside the sticky panel so it
                 stays visible the whole time the section is pinned */}
-            <div className="mt-8 overflow-hidden rounded-2xl">
+            <div className="mt-8 overflow-hidden rounded-2xl max-lg:hidden">
               <WordStrip
                 reverse
                 className="relative left-1/2 w-[150%] -translate-x-1/2 -rotate-2"
@@ -127,10 +129,13 @@ export default function WhyUs({ showHeader = true }) {
                 key={r.title}
                 data-index={i}
                 ref={(el) => (cards.current[i] = el)}
-                // Mobile: every card is solid + full opacity (no scrollytelling
-                // dimming, since the panel doesn't pin). The active-highlight
-                // only kicks in at lg.
-                className={`rounded-3xl border border-white/10 bg-ink-soft p-6 sm:p-8 lg:p-10 lg:transition-all lg:duration-300 ${
+                // Mobile: cards STACK as you scroll (position: sticky) — each
+                // locks near the top and the next slides up over it, a sticky-
+                // scroll deck. The small per-card top offset leaves a peeking
+                // edge of the cards beneath. Desktop keeps the scrollytelling
+                // (static cards + sticky left panel), so this is max-lg only.
+                style={{ top: `calc(8.5rem + ${i * 0.5}rem)` }}
+                className={`rounded-3xl border border-white/10 bg-ink-soft p-6 sm:p-8 lg:p-10 max-lg:sticky max-lg:shadow-xl max-lg:shadow-black/40 lg:transition-all lg:duration-300 ${
                   i === active
                     ? "lg:border-accent/50 lg:shadow-xl lg:shadow-black/20"
                     : "lg:bg-ink-soft/70 lg:opacity-80"
