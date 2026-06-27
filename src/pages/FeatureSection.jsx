@@ -11,7 +11,7 @@ export default function FeatureSection({ kicker, title, items }) {
         </h2>
       </Reveal>
 
-      <div className="grid gap-6 sm:grid-cols-2">
+      <div className="grid grid-cols-1 gap-6 sm:grid-cols-2">
         {items.map((it, i) => (
           <Reveal key={it.title} delay={i * 0.08}>
             <article className="group relative h-full overflow-hidden rounded-3xl border border-white/10 bg-ink-soft p-8 transition-colors duration-300 hover:border-white/20 sm:p-10">

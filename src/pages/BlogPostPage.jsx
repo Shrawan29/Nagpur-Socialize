@@ -78,7 +78,7 @@ export default function BlogPostPage({ slug }) {
           <p className="mb-8 font-mono text-xs tracking-[0.3em] text-accent-2">
             KEEP READING
           </p>
-          <div className="grid gap-6 sm:grid-cols-3">
+          <div className="grid grid-cols-1 gap-6 sm:grid-cols-3">
             {more.map((a) => (
               <a
                 key={a.slug}

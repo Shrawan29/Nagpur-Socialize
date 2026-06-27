@@ -15,7 +15,7 @@ export default function AboutPage() {
       />
 
       <section className="mx-auto max-w-7xl px-5 pb-4 sm:px-8">
-        <Reveal className="grid gap-10 border-t border-white/10 pt-12 lg:grid-cols-[0.9fr_1.1fr]">
+        <Reveal className="grid grid-cols-1 gap-10 border-t border-white/10 pt-12 lg:grid-cols-[0.9fr_1.1fr]">
           <h2 className="font-display text-3xl font-bold leading-tight sm:text-4xl">
             We started with one sold-out night — and never looked back.
           </h2>

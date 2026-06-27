@@ -22,7 +22,7 @@ export default function Footer() {
   return (
     <footer className="border-t border-white/10 bg-ink">
       <div className="mx-auto max-w-7xl px-5 py-16 sm:px-8">
-        <div className="grid gap-12 lg:grid-cols-[1.5fr_1fr_1fr]">
+        <div className="grid grid-cols-1 gap-12 lg:grid-cols-[1.5fr_1fr_1fr]">
           {/* Brand */}
           <div>
             <a href="#/" aria-label="Nagpur Socialize — home">

@@ -35,7 +35,7 @@ export default function ServicePage({ slug }) {
 
       {/* Capability sections */}
       <section className="mx-auto max-w-7xl px-5 pb-4 sm:px-8">
-        <div className="grid gap-6 md:grid-cols-2">
+        <div className="grid grid-cols-1 gap-6 md:grid-cols-2">
           {s.sections.map((sec, i) => (
             <Reveal
               key={sec.title}
@@ -70,7 +70,7 @@ export default function ServicePage({ slug }) {
               From brief to wrap.
             </h2>
           </Reveal>
-          <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+          <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
             {s.process.map((step, i) => (
               <Reveal
                 key={step}

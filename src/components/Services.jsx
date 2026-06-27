@@ -41,7 +41,7 @@ export default function Services() {
         </h2>
       </Reveal>
 
-      <div className="grid gap-6 lg:grid-cols-2">
+      <div className="grid grid-cols-1 gap-6 lg:grid-cols-2">
         {SERVICES.map((s, i) => (
           <Reveal key={s.id} delay={i * 0.1}>
             <article

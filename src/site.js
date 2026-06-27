@@ -4,14 +4,14 @@
 export const SITE = {
   name: "Nagpur Socialize",
   tagline: "Experiential marketing, hospitality & events",
-  email: "hello@nagpursocialize.com",
+  email: "nagpursocialize@gmail.com",
   // Display number + the digits-only version used for tel:/WhatsApp links.
   phone: "+91 99999 99999",
   phoneDigits: "919999999999", // ← REPLACE with the real number
   whatsappDigits: "919999999999", // ← REPLACE with the real WhatsApp number
-  instagram: "https://instagram.com/nagpursocialize",
+  instagram: "https://instagram.com/nagpur_socialize_",
   youtube: "#",
-  linkedin: "#",
+  facebook : "https://facebook.com/profile.php?id=61578965233011",
   location: "Nagpur, Maharashtra, India",
 };
 

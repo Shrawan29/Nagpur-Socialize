@@ -21,7 +21,7 @@ export default function ArticlesPage() {
           <Reveal className="mb-8">
             <a
               href={`#/articles/${lead.slug}`}
-              className="group relative grid overflow-hidden rounded-3xl border border-white/10 bg-ink-soft p-8 transition-colors duration-300 hover:border-white/25 sm:p-12 lg:grid-cols-[1.4fr_1fr] lg:gap-10"
+              className="group relative grid grid-cols-1 overflow-hidden rounded-3xl border border-white/10 bg-ink-soft p-8 transition-colors duration-300 hover:border-white/25 sm:p-12 lg:grid-cols-[1.4fr_1fr] lg:gap-10"
             >
               <div className="relative">
                 <div className="flex items-center gap-3 font-mono text-xs tracking-wider text-neutral-500">
@@ -46,7 +46,7 @@ export default function ArticlesPage() {
           </Reveal>
         )}
 
-        <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+        <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {rest.map((a, i) => (
             <Reveal key={a.slug} delay={(i % 3) * 0.08}>
               <a

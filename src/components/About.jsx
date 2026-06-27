@@ -137,7 +137,7 @@ export default function About() {
           initial="hidden"
           whileInView="show"
           viewport={{ once: true, amount: 0.35 }}
-          className="grid gap-12 lg:grid-cols-[1.25fr_0.9fr] lg:items-end lg:gap-16"
+          className="grid grid-cols-1 gap-12 lg:grid-cols-[1.25fr_0.9fr] lg:items-end lg:gap-16"
         >
           {/* ---- LEFT: the kinetic headline ---- */}
           <motion.div style={reduce ? undefined : { y: headY }} className="relative">

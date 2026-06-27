@@ -40,7 +40,7 @@ export default function CaseStudyPage({ slug }) {
       </PageHero>
 
       <section className="mx-auto max-w-7xl px-5 pb-8 sm:px-8">
-        <div className="grid gap-6 lg:grid-cols-[1.4fr_1fr]">
+        <div className="grid grid-cols-1 gap-6 lg:grid-cols-[1.4fr_1fr]">
           <Reveal className="rounded-3xl border border-white/10 bg-ink-soft p-8 sm:p-10">
             <p className="font-mono text-xs tracking-[0.3em] text-accent-2">
               THE CLIENT
