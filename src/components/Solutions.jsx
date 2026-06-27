@@ -83,7 +83,7 @@ export default function Solutions() {
               // grow:1 collapsed, grow:6 when open → siblings squeeze down.
               // Stacked (mobile): each panel locks near the top on scroll.
               style={{ top: `calc(8rem + ${i * 0.5}rem)` }}
-              className={`group relative cursor-pointer overflow-hidden rounded-[1.25rem] border border-white/12 bg-ink-soft shadow-2xl shadow-black/40 outline-none max-lg:sticky lg:grow lg:basis-0 lg:rounded-[2rem] lg:transition-[flex-grow] lg:duration-[550ms] lg:ease-[cubic-bezier(0.22,1,0.36,1)] lg:focus-visible:ring-2 lg:focus-visible:ring-accent ${
+              className={`group relative cursor-pointer overflow-hidden rounded-[1.25rem] border border-white/12 bg-ink-soft shadow-2xl shadow-black/40 outline-none max-lg:sticky lg:grow lg:basis-0 lg:rounded-[2rem] lg:transition-[flex-grow] lg:duration-[800ms] lg:ease-[cubic-bezier(0.22,1,0.36,1)] lg:focus-visible:ring-2 lg:focus-visible:ring-accent ${
                 open ? "lg:grow-[6]" : ""
               }${noHover ? "" : " lg:hover:grow-[6]"}`}
             >
