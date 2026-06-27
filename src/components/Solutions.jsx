@@ -47,7 +47,7 @@ export default function Solutions() {
       className="mx-auto flex min-h-screen max-w-7xl flex-col justify-center px-5 py-16 max-lg:justify-start sm:px-8 sm:py-20"
     >
       {/* On mobile the heading pins to the top while the panels stack under it */}
-      <Reveal className="mb-5 max-lg:sticky max-lg:top-0 max-lg:z-30 max-lg:border-b max-lg:border-white/10 max-lg:bg-ink/80 max-lg:pb-4 max-lg:pt-3 max-lg:shadow-lg max-lg:shadow-black/5 max-lg:backdrop-blur-xl sm:mb-6 lg:max-w-2xl">
+      <Reveal className="mb-5 max-lg:sticky max-lg:top-0 max-lg:z-30 max-lg:ml-[calc(50%_-_50vw)] max-lg:w-screen max-lg:border-b max-lg:border-white/10 max-lg:bg-ink/80 max-lg:px-5 max-lg:pb-4 max-lg:pt-3 max-lg:shadow-lg max-lg:shadow-black/5 max-lg:backdrop-blur-xl sm:mb-6 sm:max-lg:px-8 lg:max-w-2xl">
         <p className="font-mono text-xs tracking-[0.3em] text-accent-2">
           SOLUTIONS
         </p>

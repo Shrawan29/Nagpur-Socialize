@@ -61,13 +61,13 @@ export default function WhyUs({ showHeader = true }) {
           {/* Left panel. On mobile it becomes a compact sticky heading bar that
               pins to the top while the cards stack/scroll under it; the intro +
               strip are hidden there to keep the pinned bar short. */}
-          <div className="min-w-0 self-start max-lg:sticky max-lg:top-0 max-lg:z-30 max-lg:border-b max-lg:border-white/10 max-lg:bg-ink/80 max-lg:pb-4 max-lg:pt-3 max-lg:shadow-lg max-lg:shadow-black/5 max-lg:backdrop-blur-xl lg:sticky lg:top-24">
+          <div className="min-w-0 self-start max-lg:sticky max-lg:top-0 max-lg:z-30 max-lg:ml-[calc(50%_-_50vw)] max-lg:w-screen max-lg:border-b max-lg:border-white/10 max-lg:bg-ink/80 max-lg:px-5 max-lg:pb-4 max-lg:pt-3 max-lg:shadow-lg max-lg:shadow-black/5 max-lg:backdrop-blur-xl sm:max-lg:px-8 lg:sticky lg:top-24">
             {showHeader && (
               <>
                 <p className="font-mono text-xs tracking-[0.3em] text-accent-2">
                   WHY CHOOSE US
                 </p>
-                <h2 className="mt-3 font-poster text-2xl uppercase leading-[0.95] tracking-tight sm:text-3xl lg:mt-4 lg:text-6xl">
+                <h2 className="mt-3 font-poster text-[1.85rem] uppercase leading-[0.95] tracking-tight sm:text-4xl lg:mt-4 lg:text-6xl">
                   Seven reasons brands keep coming back.
                 </h2>
               </>
@@ -134,7 +134,7 @@ export default function WhyUs({ showHeader = true }) {
                 // scroll deck. The small per-card top offset leaves a peeking
                 // edge of the cards beneath. Desktop keeps the scrollytelling
                 // (static cards + sticky left panel), so this is max-lg only.
-                style={{ top: `calc(8.5rem + ${i * 0.5}rem)` }}
+                style={{ top: `calc(9.5rem + ${i * 0.5}rem)` }}
                 className={`rounded-3xl border border-white/10 bg-ink-soft p-6 sm:p-8 lg:p-10 max-lg:sticky max-lg:shadow-xl max-lg:shadow-black/40 lg:transition-all lg:duration-300 ${
                   i === active
                     ? "lg:border-accent/50 lg:shadow-xl lg:shadow-black/20"
