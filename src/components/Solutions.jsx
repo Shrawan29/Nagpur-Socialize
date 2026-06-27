@@ -68,7 +68,7 @@ export default function Solutions() {
             </div>
 
             {/* EXPANDED content — anchored bottom, fades in on hover */}
-            <div className="pointer-events-none absolute inset-0 flex min-w-[20rem] flex-col justify-end p-8 opacity-0 transition-opacity delay-150 duration-300 group-hover:opacity-100 sm:p-10">
+            <div className="flex flex-col justify-end p-6 lg:pointer-events-none lg:absolute lg:inset-0 lg:min-w-[20rem] lg:p-10 lg:opacity-0 lg:transition-opacity lg:delay-150 lg:duration-300 lg:group-hover:opacity-100">
               <h3 className="font-display text-4xl font-bold leading-[0.95] sm:text-5xl">
                 {s.name}
               </h3>
