@@ -61,7 +61,7 @@ export default function WhyUs({ showHeader = true }) {
           {/* Left panel. On mobile it becomes a compact sticky heading bar that
               pins to the top while the cards stack/scroll under it; the intro +
               strip are hidden there to keep the pinned bar short. */}
-          <div className="min-w-0 self-start max-lg:sticky max-lg:top-0 max-lg:z-30 max-lg:bg-ink max-lg:pb-4 max-lg:pt-2 lg:sticky lg:top-24">
+          <div className="min-w-0 self-start max-lg:sticky max-lg:top-0 max-lg:z-30 max-lg:border-b max-lg:border-white/10 max-lg:bg-ink/80 max-lg:pb-4 max-lg:pt-3 max-lg:shadow-lg max-lg:shadow-black/5 max-lg:backdrop-blur-xl lg:sticky lg:top-24">
             {showHeader && (
               <>
                 <p className="font-mono text-xs tracking-[0.3em] text-accent-2">
