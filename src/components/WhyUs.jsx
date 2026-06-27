@@ -61,7 +61,7 @@ export default function WhyUs({ showHeader = true }) {
           {/* Left panel. On mobile it becomes a compact sticky heading bar that
               pins to the top while the cards stack/scroll under it; the intro +
               strip are hidden there to keep the pinned bar short. */}
-          <div className="min-w-0 self-start max-lg:sticky max-lg:top-0 max-lg:z-30 max-lg:ml-[calc(50%_-_50vw)] max-lg:w-screen max-lg:border-b max-lg:border-white/10 max-lg:bg-ink/80 max-lg:px-5 max-lg:pb-4 max-lg:pt-3 max-lg:shadow-lg max-lg:shadow-black/5 max-lg:backdrop-blur-xl sm:max-lg:px-8 lg:sticky lg:top-24">
+          <div className="min-w-0 self-start max-lg:sticky max-lg:top-0 max-lg:z-20 max-lg:ml-[calc(50%_-_50vw)] max-lg:w-screen max-lg:border-b max-lg:border-white/10 max-lg:bg-ink/80 max-lg:px-5 max-lg:pb-4 max-lg:pt-3 max-lg:shadow-lg max-lg:shadow-black/5 max-lg:backdrop-blur-xl sm:max-lg:px-8 lg:sticky lg:top-24">
             {showHeader && (
               <>
                 <p className="font-mono text-xs tracking-[0.3em] text-accent-2">
@@ -135,7 +135,7 @@ export default function WhyUs({ showHeader = true }) {
                 // edge of the cards beneath. Desktop keeps the scrollytelling
                 // (static cards + sticky left panel), so this is max-lg only.
                 style={{ top: `calc(9.5rem + ${i * 0.5}rem)` }}
-                className={`rounded-3xl border border-white/10 bg-ink-soft p-6 sm:p-8 lg:p-10 max-lg:sticky max-lg:shadow-xl max-lg:shadow-black/40 lg:transition-all lg:duration-300 ${
+                className={`rounded-3xl border border-white/10 bg-ink-soft p-6 sm:p-8 lg:p-10 max-lg:sticky max-lg:z-30 max-lg:shadow-xl max-lg:shadow-black/40 lg:transition-all lg:duration-300 ${
                   i === active
                     ? "lg:border-accent/50 lg:shadow-xl lg:shadow-black/20"
                     : "lg:bg-ink-soft/70 lg:opacity-80"
