@@ -59,9 +59,9 @@ export default function WhyChooseHero() {
       };
 
   return (
-    <section className="relative flex min-h-[100svh] flex-col justify-between overflow-hidden px-5 pt-28 pb-10 sm:px-8 sm:pt-32 sm:pb-14">
+    <section className="relative flex min-h-[100svh] flex-col justify-between overflow-hidden pr-5 pt-28 pb-10 sm:pr-8 sm:pt-32 sm:pb-14">
       {/* ---- Top: minimalist anchors + the ultra-bold headline ---- */}
-      <div className="relative z-20 mx-auto w-full max-w-7xl">
+      <div className="relative z-20 w-full max-w-7xl">
         <motion.div
           variants={anchorWrap}
           initial="hidden"
@@ -121,7 +121,7 @@ export default function WhyChooseHero() {
         variants={anchorWrap}
         initial="hidden"
         animate="show"
-        className="relative z-20 mx-auto flex w-full max-w-7xl items-end justify-between font-mono text-[0.7rem] tracking-[0.3em] text-neutral-500"
+        className="relative z-20 flex w-full max-w-7xl items-end justify-between font-mono text-[0.7rem] tracking-[0.3em] text-neutral-500"
       >
         <motion.span variants={anchor}>SCROLL ↓</motion.span>
         <motion.span variants={anchor} className="hidden sm:block">
