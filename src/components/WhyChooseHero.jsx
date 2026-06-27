@@ -81,7 +81,7 @@ export default function WhyChooseHero() {
           initial="hidden"
           animate="show"
           style={{ WebkitTextStroke: "0.02em currentColor", paintOrder: "stroke" }}
-          className="mt-5 max-w-6xl font-poster text-[clamp(4.5rem,22vw,170px)] uppercase leading-[1.5] tracking-tight sm:mt-8 lg:leading-[0.9]"
+          className="mt-5 max-w-6xl font-poster text-[clamp(4.5rem,22vw,170px)] uppercase leading-[0.9] tracking-tight sm:mt-8"
         >
           {words.map((w, i) => (
             <Fragment key={i}>
@@ -106,6 +106,14 @@ export default function WhyChooseHero() {
             </Fragment>
           ))}
         </motion.h1>
+
+        {/* Tilted marquee ribbon — sits below the headline, breaks the grid */}
+        <WordStrip
+          className="relative left-1/2 z-10 mt-10 w-[190%] -translate-x-1/2 -rotate-[7deg] sm:mt-14"
+          initial={{ opacity: 0, clipPath: "inset(0 100% 0 0)" }}
+          animate={{ opacity: 1, clipPath: "inset(0 0 0 0)" }}
+          transition={{ duration: 1, delay: reduce ? 0.15 : REVEAL + 0.15, ease: REVEAL_EASE }}
+        />
       </div>
 
       {/* ---- Bottom: minimalist anchor points framing the negative space ---- */}
@@ -121,13 +129,6 @@ export default function WhyChooseHero() {
         </motion.span>
       </motion.div>
 
-      {/* ---- Tilted marquee ribbon — breaks the grid (full-bleed, off-axis) ---- */}
-      <WordStrip
-        className="absolute left-1/2 top-[58%] z-10 w-[190%] -translate-x-1/2 -translate-y-1/2 -rotate-[7deg] lg:top-[64%]"
-        initial={{ opacity: 0, clipPath: "inset(0 100% 0 0)" }}
-        animate={{ opacity: 1, clipPath: "inset(0 0 0 0)" }}
-        transition={{ duration: 1, delay: reduce ? 0.15 : REVEAL + 0.15, ease: REVEAL_EASE }}
-      />
     </section>
   );
 }
