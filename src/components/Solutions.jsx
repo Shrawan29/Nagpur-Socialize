@@ -47,7 +47,7 @@ export default function Solutions() {
       className="mx-auto flex min-h-screen max-w-7xl flex-col justify-center px-5 py-16 max-lg:justify-start sm:px-8 sm:py-20"
     >
       {/* On mobile the heading pins to the top while the panels stack under it */}
-      <Reveal className="mb-5 max-lg:sticky max-lg:top-0 max-lg:z-20 max-lg:ml-[calc(50%_-_50vw)] max-lg:w-screen max-lg:bg-ink-soft max-lg:px-5 max-lg:pb-4 max-lg:pt-3 max-lg:shadow-lg max-lg:shadow-black/5 sm:mb-6 sm:max-lg:px-8 lg:max-w-2xl">
+      <Reveal className="mb-5 max-lg:sticky max-lg:top-0 max-lg:z-20 max-lg:ml-[calc(50%_-_50vw)] max-lg:w-screen max-lg:bg-ink max-lg:px-5 max-lg:pb-4 max-lg:pt-3 sm:mb-6 sm:max-lg:px-8 lg:max-w-2xl">
         <p className="font-mono text-xs tracking-[0.3em] text-accent-2">
           SOLUTIONS
         </p>
@@ -83,13 +83,13 @@ export default function Solutions() {
               // grow:1 collapsed, grow:6 when open → siblings squeeze down.
               // Stacked (mobile): each panel locks near the top on scroll.
               style={{ top: `calc(8rem + ${i * 0.5}rem)` }}
-              className={`group relative cursor-pointer overflow-hidden rounded-[1.25rem] border border-white/12 bg-ink-soft shadow-2xl shadow-black/40 outline-none max-lg:sticky max-lg:z-30 lg:grow lg:basis-0 lg:rounded-[2rem] lg:transition-[flex-grow] lg:duration-[800ms] lg:ease-[cubic-bezier(0.22,1,0.36,1)] lg:focus-visible:ring-2 lg:focus-visible:ring-accent ${
+              className={`group relative cursor-pointer overflow-hidden rounded-[1.25rem] border border-white/12 outline-none max-lg:bg-ink max-lg:sticky max-lg:z-30 lg:bg-ink-soft lg:shadow-2xl lg:shadow-black/40 lg:grow lg:basis-0 lg:rounded-[2rem] lg:transition-[flex-grow] lg:duration-[800ms] lg:ease-[cubic-bezier(0.22,1,0.36,1)] lg:focus-visible:ring-2 lg:focus-visible:ring-accent ${
                 open ? "lg:grow-[6]" : ""
               }${noHover ? "" : " lg:hover:grow-[6]"}`}
             >
               {/* tint + dot texture */}
               <div
-                className={`pointer-events-none absolute inset-0 ${TINTS[i % TINTS.length]
+                className={`pointer-events-none absolute inset-0 max-lg:hidden ${TINTS[i % TINTS.length]
                   }`}
               />
               <div
