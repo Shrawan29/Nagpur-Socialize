@@ -120,7 +120,7 @@ export default function Solutions() {
               {/* EXPANDED content — shown directly when stacked; fades in when
                   the panel opens. Extra top padding clears the absolute number. */}
               <div
-                className={`flex flex-col justify-end px-6 pb-6 pt-16 lg:pointer-events-none lg:absolute lg:inset-0 lg:min-w-[20rem] lg:p-10 lg:opacity-0 lg:transition-opacity lg:delay-200 lg:duration-[400ms] ${
+                className={`flex flex-col justify-end px-6 pb-6 pt-16 lg:pointer-events-none lg:absolute lg:inset-0 lg:min-w-[20rem] lg:p-10 lg:opacity-0 lg:transition-opacity lg:delay-300 lg:duration-[450ms] ${
                   open ? "lg:opacity-100" : ""
                 }${noHover ? "" : " lg:group-hover:opacity-100"}`}
               >
