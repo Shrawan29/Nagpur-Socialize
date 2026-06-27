@@ -88,8 +88,9 @@ export default function WhyUs({ showHeader = true }) {
               />
             </div>
 
-            {/* Active reason readout */}
-            <div className="mt-10">
+            {/* Active reason readout — desktop sticky-scroll device, hidden on
+                mobile where the panel doesn't pin */}
+            <div className="mt-10 hidden lg:block">
               <div className="flex items-end gap-3">
                 <span className="font-display text-6xl font-bold leading-none text-accent sm:text-7xl">
                   {pad(active + 1)}
@@ -107,7 +108,7 @@ export default function WhyUs({ showHeader = true }) {
             </div>
 
             {/* Progress segments */}
-            <div className="mt-6 flex gap-2">
+            <div className="mt-6 hidden gap-2 lg:flex">
               {REASONS.map((_, i) => (
                 <span
                   key={i}

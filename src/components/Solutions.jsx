@@ -67,8 +67,9 @@ export default function Solutions() {
               </h3>
             </div>
 
-            {/* EXPANDED content — anchored bottom, fades in on hover */}
-            <div className="flex flex-col justify-end p-6 lg:pointer-events-none lg:absolute lg:inset-0 lg:min-w-[20rem] lg:p-10 lg:opacity-0 lg:transition-opacity lg:delay-150 lg:duration-300 lg:group-hover:opacity-100">
+            {/* EXPANDED content — anchored bottom, fades in on hover.
+                Mobile: extra top padding so it clears the absolute number. */}
+            <div className="flex flex-col justify-end px-6 pb-6 pt-16 lg:pointer-events-none lg:absolute lg:inset-0 lg:min-w-[20rem] lg:p-10 lg:opacity-0 lg:transition-opacity lg:delay-150 lg:duration-300 lg:group-hover:opacity-100">
               <h3 className="font-display text-4xl font-bold leading-[0.95] sm:text-5xl">
                 {s.name}
               </h3>
