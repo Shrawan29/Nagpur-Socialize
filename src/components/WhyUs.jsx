@@ -135,7 +135,7 @@ export default function WhyUs({ showHeader = true }) {
                 // edge of the cards beneath. Desktop keeps the scrollytelling
                 // (static cards + sticky left panel), so this is max-lg only.
                 style={{ top: `calc(9.5rem + ${i * 0.5}rem)` }}
-                className={`rounded-3xl border border-white/10 p-6 sm:p-8 lg:p-10 max-lg:bg-ink max-lg:sticky max-lg:z-30 lg:bg-ink-soft lg:transition-all lg:duration-300 ${
+                className={`rounded-3xl border border-white/10 bg-pill p-6 sm:p-8 lg:p-10 max-lg:sticky max-lg:z-30 lg:transition-all lg:duration-300 ${
                   i === active
                     ? "lg:border-accent/50 lg:shadow-xl lg:shadow-black/20"
                     : "lg:bg-ink-soft/70 lg:opacity-80"
