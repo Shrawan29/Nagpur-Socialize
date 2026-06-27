@@ -46,7 +46,7 @@ export default function Solutions() {
       className="mx-auto flex min-h-screen max-w-7xl flex-col justify-center px-5 py-16 max-lg:justify-start sm:px-8 sm:py-20"
     >
       {/* On mobile the heading pins to the top while the panels stack under it */}
-      <Reveal className="mb-10 max-w-2xl max-lg:sticky max-lg:top-0 max-lg:z-30 max-lg:bg-ink max-lg:pb-4 max-lg:pt-2">
+      <Reveal className="mb-5 max-w-2xl max-lg:sticky max-lg:top-0 max-lg:z-30 max-lg:bg-ink max-lg:pb-4 max-lg:pt-2 sm:mb-6">
         <p className="font-mono text-xs tracking-[0.3em] text-accent-2">
           SOLUTIONS
         </p>
