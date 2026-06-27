@@ -1,10 +1,13 @@
+import { useEffect, useState } from "react";
 import Reveal from "./Reveal.jsx";
 import { solutions } from "../data/index.js";
 
-// Expanding horizontal panels. Each panel is a narrow sliver showing only its
-// heading (set vertically); hovering expands it and collapses the siblings,
-// revealing the blurb + offerings. Fixed-height row → the whole section fits
-// in one screen, no scrolling. Display only.
+// Expanding horizontal panels on hover-capable desktops: each panel is a narrow
+// sliver showing only its (vertical) heading; hovering expands it and squeezes
+// the siblings, revealing the blurb + offerings.
+// On phones AND any touch device (no hover) the panels instead STACK with their
+// content shown directly — hover-to-expand can't work without a pointer, so
+// tapping a sliver would do nothing.
 // Alternate the two page colours (violet primary / coral secondary).
 const TINTS = [
   "bg-accent/20",
@@ -16,8 +19,26 @@ const TINTS = [
 
 const pad = (n) => String(n).padStart(2, "0");
 
+// True on devices whose primary input can't hover (phones, tablets) — they get
+// the always-open stacked layout at every width instead of the hover row.
+function useNoHover() {
+  const [noHover, setNoHover] = useState(
+    () => typeof window !== "undefined" && window.matchMedia("(hover: none)").matches
+  );
+  useEffect(() => {
+    const mq = window.matchMedia("(hover: none)");
+    const update = () => setNoHover(mq.matches);
+    update();
+    mq.addEventListener("change", update);
+    return () => mq.removeEventListener("change", update);
+  }, []);
+  return noHover;
+}
+
 export default function Solutions() {
   const total = solutions.length;
+  // Only hover-capable devices get the lg expanding-row interaction.
+  const hoverable = !useNoHover();
 
   return (
     <section
@@ -34,16 +55,24 @@ export default function Solutions() {
         </h2>
       </Reveal>
 
-      {/* Expanding panel row — fixed height keeps everything on one screen */}
-      <div className="flex flex-col gap-4 lg:h-[58vh] lg:min-h-[420px] lg:flex-row lg:gap-4">
+      {/* Hover-capable desktops get the fixed-height expanding row; everyone
+          else stacks. */}
+      <div
+        className={`flex flex-col gap-4${
+          hoverable ? " lg:h-[58vh] lg:min-h-[420px] lg:flex-row lg:gap-4" : ""
+        }`}
+      >
         {solutions.map((s, i) => (
           <div
             key={s.slug}
             // grow:1 collapsed, grow:6 on hover → siblings squeeze down.
-            // Mobile: panels STACK as you scroll (position: sticky) — each locks
-            // near the top and the next slides up over it (sticky-scroll deck).
+            // Stacked (touch/mobile): each panel locks near the top on scroll.
             style={{ top: `calc(8rem + ${i * 0.5}rem)` }}
-            className="group relative cursor-pointer overflow-hidden rounded-[1.25rem] border border-white/12 bg-ink-soft shadow-2xl shadow-black/40 max-lg:sticky lg:grow lg:basis-0 lg:rounded-[2rem] lg:transition-[flex-grow] lg:duration-500 lg:ease-out lg:hover:grow-[6]"
+            className={`group relative overflow-hidden rounded-[1.25rem] border border-white/12 bg-ink-soft shadow-2xl shadow-black/40 max-lg:sticky${
+              hoverable
+                ? " cursor-pointer lg:grow lg:basis-0 lg:rounded-[2rem] lg:transition-[flex-grow] lg:duration-500 lg:ease-out lg:hover:grow-[6]"
+                : ""
+            }`}
           >
             {/* tint + dot texture */}
             <div
@@ -64,16 +93,24 @@ export default function Solutions() {
               {pad(i + 1)} / {pad(total)}
             </span>
 
-            {/* COLLAPSED label — vertical heading anchored like a spine, fades out on hover */}
-            <div className="absolute inset-0 hidden items-end justify-start p-6 lg:flex lg:transition-opacity lg:duration-300 lg:group-hover:pointer-events-none lg:group-hover:opacity-0">
-              <h3 className="whitespace-nowrap font-display text-3xl font-bold leading-none tracking-tight [writing-mode:vertical-rl] rotate-180 sm:text-4xl">
-                {s.name}
-              </h3>
-            </div>
+            {/* COLLAPSED label — vertical heading spine, only in the hover row */}
+            {hoverable && (
+              <div className="absolute inset-0 hidden items-end justify-start p-6 lg:flex lg:transition-opacity lg:duration-300 lg:group-hover:pointer-events-none lg:group-hover:opacity-0">
+                <h3 className="whitespace-nowrap font-display text-3xl font-bold leading-none tracking-tight [writing-mode:vertical-rl] rotate-180 sm:text-4xl">
+                  {s.name}
+                </h3>
+              </div>
+            )}
 
-            {/* EXPANDED content — anchored bottom, fades in on hover.
-                Mobile: extra top padding so it clears the absolute number. */}
-            <div className="flex flex-col justify-end px-6 pb-6 pt-16 lg:pointer-events-none lg:absolute lg:inset-0 lg:min-w-[20rem] lg:p-10 lg:opacity-0 lg:transition-opacity lg:delay-150 lg:duration-300 lg:group-hover:opacity-100">
+            {/* EXPANDED content — shown directly when stacked; fades in on hover
+                in the desktop row. Extra top padding clears the absolute number. */}
+            <div
+              className={`flex flex-col justify-end px-6 pb-6 pt-16${
+                hoverable
+                  ? " lg:pointer-events-none lg:absolute lg:inset-0 lg:min-w-[20rem] lg:p-10 lg:opacity-0 lg:transition-opacity lg:delay-150 lg:duration-300 lg:group-hover:opacity-100"
+                  : ""
+              }`}
+            >
               <h3 className="font-display text-4xl font-bold leading-[0.95] sm:text-5xl">
                 {s.name}
               </h3>
