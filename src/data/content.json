@@ -1,0 +1,1259 @@
+{
+  "services": [
+    {
+      "slug": "social-media-management",
+      "number": "01",
+      "name": "Social Media Management",
+      "tag": "Always-On Content",
+      "headline": "We keep your feed loud.",
+      "blurb": "First frame to final swipe, we run your social like a live show. Strategy, shoots, reels, replies. Consistent, scroll-stopping, never sleepy.",
+      "sections": [
+        {
+          "title": "What's included",
+          "items": [
+            "Content strategy built around your brand and your city",
+            "Content creation that actually fits the feed",
+            "Photography with real punch",
+            "Reels production tuned for reach",
+            "Community management that answers fast",
+            "Paid campaigns that put budget where it bites",
+            "Analytics that tell you what's working"
+          ]
+        },
+        {
+          "title": "Deliverables",
+          "items": [
+            "Monthly content calendar, planned and posted",
+            "Performance reports in plain numbers",
+            "Growth strategy that scales month on month"
+          ]
+        }
+      ],
+      "process": [
+        "Audit your current feed and find the gaps",
+        "Lock a calendar and content pillars",
+        "Shoot, edit, and schedule",
+        "Engage, boost, and track daily",
+        "Report and sharpen for next month"
+      ],
+      "related": [
+        "influencer-collaborations",
+        "pr-media-coverage",
+        "brand-development"
+      ]
+    },
+    {
+      "slug": "pr-media-coverage",
+      "number": "02",
+      "name": "PR & Media Coverage",
+      "tag": "Earned Buzz",
+      "headline": "Get talked about, not ignored.",
+      "blurb": "We put your story in front of the right eyes. Press that lands, features that stick, coverage that makes Nagpur look twice. Credibility you can't buy with ads.",
+      "sections": [
+        {
+          "title": "What's included",
+          "items": [
+            "Press releases written to get picked up",
+            "Media outreach to outlets that matter",
+            "Brand features in the right places",
+            "Interviews that put your founders forward",
+            "Event coverage, on the ground and live"
+          ]
+        },
+        {
+          "title": "Outcomes",
+          "items": [
+            "Brand visibility across regional media",
+            "Credibility that compounds over time",
+            "Earned media exposure money can't fake"
+          ]
+        }
+      ],
+      "process": [
+        "Find the angle worth a headline",
+        "Build the media list",
+        "Pitch, follow up, and place",
+        "Cover the moment as it happens",
+        "Round up the clippings and reach"
+      ],
+      "related": [
+        "social-media-management",
+        "influencer-collaborations",
+        "post-event-analysis"
+      ]
+    },
+    {
+      "slug": "influencer-collaborations",
+      "number": "03",
+      "name": "Influencer & Blogger Collaborations",
+      "tag": "Creator Power",
+      "headline": "Right creators. Real reach.",
+      "blurb": "We match your brand with creators who actually move their crowd. No spray-and-pray. Sourced, negotiated, briefed, and tracked, first DM to final story.",
+      "sections": [
+        {
+          "title": "Services",
+          "items": [
+            "Influencer sourcing that fits your vibe",
+            "Deal terms that protect your budget",
+            "Campaign planning end to end",
+            "Content monitoring while it's live",
+            "Reporting that proves the lift"
+          ]
+        },
+        {
+          "title": "Categories",
+          "items": [
+            "Food Bloggers",
+            "Lifestyle Creators",
+            "Fashion Influencers",
+            "Travel Influencers",
+            "Local Creators"
+          ]
+        }
+      ],
+      "process": [
+        "Define the audience and the goal",
+        "Shortlist creators who match",
+        "Negotiate deals and deliverables",
+        "Brief, shoot, and go live",
+        "Track engagement and report"
+      ],
+      "related": [
+        "social-media-management",
+        "pr-media-coverage",
+        "artist-management"
+      ]
+    },
+    {
+      "slug": "venue-scouting",
+      "number": "04",
+      "name": "Venue Scouting",
+      "tag": "Right Room, Every Time",
+      "headline": "We find the perfect room.",
+      "blurb": "Give us the brief, we'll find the space. Rooftops, ballrooms, clubs, open grounds. The right fit for your crowd, your budget, and your night. Local knowledge does the rest.",
+      "sections": [
+        {
+          "title": "Services",
+          "items": [
+            "Restaurant sourcing across the city",
+            "Hotels for every scale",
+            "Lounges with the right mood",
+            "Clubs that pull a crowd",
+            "Corporate venues that mean business",
+            "Outdoor venues for the big ones"
+          ]
+        },
+        {
+          "title": "Features",
+          "items": [
+            "Budget matching, no surprises",
+            "Capacity planning that fits your headcount",
+            "Location assessment for access and vibe"
+          ]
+        }
+      ],
+      "process": [
+        "Take the brief and the budget",
+        "Shortlist venues that fit",
+        "Walk the spaces and assess",
+        "Match the best option to your event",
+        "Lock the booking and the terms"
+      ],
+      "related": [
+        "production-experience",
+        "hospitality-management",
+        "curated-events"
+      ]
+    },
+    {
+      "slug": "artist-booking",
+      "number": "05",
+      "name": "Artist Booking & Coordination",
+      "tag": "Lineups That Land",
+      "headline": "Book the act, skip the chaos.",
+      "blurb": "Headliner to host, we lock the talent and handle everything around them. Contracts, travel, tech, hospitality. You get the show, we run the backstage.",
+      "sections": [
+        {
+          "title": "Categories",
+          "items": [
+            "DJs",
+            "Singers",
+            "Bands",
+            "Stand-up comedians",
+            "Hosts & anchors",
+            "Celebrity appearances"
+          ]
+        },
+        {
+          "title": "Services",
+          "items": [
+            "Contract management, clean and clear",
+            "Logistics from arrival to encore",
+            "Hospitality that keeps talent happy",
+            "Technical requirements sorted ahead of time"
+          ]
+        }
+      ],
+      "process": [
+        "Match the act to your crowd",
+        "Negotiate and sign the deal",
+        "Plan travel, stay, and tech",
+        "Coordinate the day-of run",
+        "Settle and wrap clean"
+      ],
+      "related": [
+        "artist-management",
+        "production-experience",
+        "curated-events"
+      ]
+    },
+    {
+      "slug": "hospitality-management",
+      "number": "06",
+      "name": "Hospitality Management",
+      "tag": "Guests Feel It",
+      "headline": "Every guest treated like a VIP.",
+      "blurb": "The little things make the night. We track every RSVP, greet every guest, and handle the VIPs so nobody waits. Smooth arrivals, easy stays, zero friction.",
+      "sections": [
+        {
+          "title": "What's included",
+          "items": [
+            "Guest management from invite to exit",
+            "RSVP tracking that stays accurate",
+            "VIP handling with the white-glove touch",
+            "Accommodation booked and confirmed",
+            "Transportation timed to the minute",
+            "On-site coordination through the night"
+          ]
+        }
+      ],
+      "process": [
+        "Build the guest and VIP list",
+        "Track RSVPs and confirmations",
+        "Arrange stays and transport",
+        "Greet and guide on arrival",
+        "Run the floor and handle the unexpected"
+      ],
+      "related": [
+        "venue-scouting",
+        "production-experience",
+        "curated-events"
+      ]
+    },
+    {
+      "slug": "hamper-planning",
+      "number": "07",
+      "name": "Hamper Planning",
+      "tag": "Gifts With Impact",
+      "headline": "Hampers people actually open twice.",
+      "blurb": "Gifting that gets remembered. We design hampers from idea to doorstep, sourced sharp and packed to impress. Corporate, festive, or influencer-ready.",
+      "sections": [
+        {
+          "title": "Services",
+          "items": [
+            "Corporate gifting that reflects the brand",
+            "Influencer hampers built to be unboxed",
+            "Festive hampers with local warmth",
+            "Product launch kits that make noise"
+          ]
+        },
+        {
+          "title": "Process",
+          "items": [
+            "Concept",
+            "Design",
+            "Procurement",
+            "Packaging",
+            "Delivery"
+          ]
+        }
+      ],
+      "process": [
+        "Set the concept and the budget",
+        "Design the look and contents",
+        "Source and procure the goods",
+        "Pack with care and craft",
+        "Deliver on time, every time"
+      ],
+      "related": [
+        "product-design",
+        "vendor-management",
+        "brand-development"
+      ]
+    },
+    {
+      "slug": "production-experience",
+      "number": "08",
+      "name": "Production & Experience",
+      "tag": "Built To Wow",
+      "headline": "We build the whole show.",
+      "blurb": "Stage to sound to the last LED pixel, we fabricate the experience. Big builds, bold installations, clean execution. You dream it, we run the floor.",
+      "sections": [
+        {
+          "title": "What's included",
+          "items": [
+            "Stage design with presence",
+            "Lighting that sets the mood",
+            "Sound that fills the room",
+            "LED walls for the big visuals",
+            "Fabrication built on site",
+            "Experiential installations people walk into"
+          ]
+        },
+        {
+          "title": "Event types",
+          "items": [
+            "Launches",
+            "Festivals",
+            "Conferences",
+            "Weddings",
+            "Brand activations"
+          ]
+        }
+      ],
+      "process": [
+        "Translate the brief into a build",
+        "Design stage, light, and sound",
+        "Fabricate and rig on site",
+        "Run the show live",
+        "Strike and clear clean"
+      ],
+      "related": [
+        "artist-booking",
+        "venue-scouting",
+        "curated-events"
+      ]
+    },
+    {
+      "slug": "post-event-analysis",
+      "number": "09",
+      "name": "Post Event Analysis",
+      "tag": "Proof In Numbers",
+      "headline": "Know exactly what worked.",
+      "blurb": "The party ends, the data doesn't. We break down footfall, reach, and ROI so the next one hits harder. No guesswork, just numbers you can act on.",
+      "sections": [
+        {
+          "title": "Reports include",
+          "items": [
+            "Attendance counted and confirmed",
+            "Reach across every channel",
+            "Engagement that shows real interest",
+            "Media coverage tallied up",
+            "Influencer performance, creator by creator",
+            "ROI analysis tied to your spend"
+          ]
+        }
+      ],
+      "process": [
+        "Set the metrics before the event",
+        "Capture data on the ground and online",
+        "Crunch reach, engagement, and spend",
+        "Pull insights worth keeping",
+        "Deliver the report and the next move"
+      ],
+      "related": [
+        "social-media-management",
+        "pr-media-coverage",
+        "curated-events"
+      ]
+    },
+    {
+      "slug": "beverage-catering",
+      "number": "10",
+      "name": "Beverage Catering",
+      "tag": "Pour With Style",
+      "headline": "Drinks that make the night.",
+      "blurb": "Signature cocktails to a buzzing mocktail station, we plan and pour. Menus built for your crowd, bars that keep the line moving, flavor that gets remembered.",
+      "sections": [
+        {
+          "title": "Services",
+          "items": [
+            "Cocktail menus crafted for the event",
+            "Mocktail stations everyone enjoys",
+            "Beverage planning sized to the crowd",
+            "Event bars that flow all night"
+          ]
+        }
+      ],
+      "process": [
+        "Design the menu around the theme",
+        "Plan volumes and stations",
+        "Stock, staff, and set up the bar",
+        "Pour and serve through the night",
+        "Wrap, count, and clear"
+      ],
+      "related": [
+        "bar-takeover",
+        "hospitality-management",
+        "production-experience"
+      ]
+    },
+    {
+      "slug": "bar-takeover",
+      "number": "11",
+      "name": "Bar Takeover",
+      "tag": "Own The Night",
+      "headline": "We take over the bar.",
+      "blurb": "A full venue, a full theme, a full crowd. We partner the space, build the concept, line up the DJs, and pull the sponsors. One unforgettable night, start to finish.",
+      "sections": [
+        {
+          "title": "What's included",
+          "items": [
+            "Venue partnership locked and aligned",
+            "Theme development that sets the night apart",
+            "DJ lineup tuned to the floor",
+            "Promotions that fill the room",
+            "Sponsorship integration done right"
+          ]
+        }
+      ],
+      "process": [
+        "Partner the venue and set the date",
+        "Build the theme and the lineup",
+        "Sign sponsors and plan promos",
+        "Run the takeover live",
+        "Settle and report the night"
+      ],
+      "related": [
+        "beverage-catering",
+        "artist-booking",
+        "curated-events"
+      ]
+    },
+    {
+      "slug": "hospitality-consultancy",
+      "number": "12",
+      "name": "Restaurant, Cafe, Lounge & Club Consultancy",
+      "tag": "From Concept To Crowd",
+      "headline": "We build venues that fill up.",
+      "blurb": "Opening a spot or fixing one? We shape the concept, set the systems, and bring the crowd. Positioning to operations to marketing, the full playbook for a venue that lasts.",
+      "sections": [
+        {
+          "title": "Brand positioning",
+          "items": [
+            "Concept creation that stands out",
+            "Market research grounded in the local scene"
+          ]
+        },
+        {
+          "title": "Operations",
+          "items": [
+            "SOPs that keep the floor tight",
+            "Vendor setup that holds up"
+          ]
+        },
+        {
+          "title": "Marketing",
+          "items": [
+            "Social media that builds the buzz",
+            "Influencer marketing that drives footfall"
+          ]
+        },
+        {
+          "title": "Revenue growth",
+          "items": [
+            "Event strategy that packs the calendar",
+            "Loyalty programs that bring them back"
+          ]
+        }
+      ],
+      "process": [
+        "Audit the concept and the market",
+        "Set positioning and operations",
+        "Build the marketing engine",
+        "Launch and drive footfall",
+        "Track revenue and refine"
+      ],
+      "related": [
+        "brand-development",
+        "vendor-management",
+        "curated-events"
+      ]
+    },
+    {
+      "slug": "artist-management",
+      "number": "13",
+      "name": "Artist Management",
+      "tag": "Careers, Handled",
+      "headline": "We grow the artist, you perform.",
+      "blurb": "Talent deserves a team. We chase the brand deals, manage the bookings, build the following, and handle the press. You focus on the craft, we handle the rest.",
+      "sections": [
+        {
+          "title": "Services",
+          "items": [
+            "Brand partnerships that fit the artist",
+            "Booking management with no gaps",
+            "PR support that builds the name",
+            "Social media growth that compounds"
+          ]
+        }
+      ],
+      "process": [
+        "Define the artist's positioning",
+        "Land partnerships and bookings",
+        "Grow the audience online",
+        "Push PR and visibility",
+        "Review and plan the next move"
+      ],
+      "related": [
+        "artist-booking",
+        "influencer-collaborations",
+        "social-media-management"
+      ]
+    },
+    {
+      "slug": "curated-events",
+      "number": "14",
+      "name": "Curated Events",
+      "tag": "Moments Into Movements",
+      "headline": "Events the city shows up for.",
+      "blurb": "We turn moments into movements. Networking nights to food festivals, we curate experiences people remember and post about. Concept to last-song-of-the-night, fully handled.",
+      "sections": [
+        {
+          "title": "Event types",
+          "items": [
+            "Networking events",
+            "Community meetups",
+            "Fashion events",
+            "Food festivals",
+            "Music nights",
+            "Corporate events"
+          ]
+        }
+      ],
+      "process": [
+        "Shape the concept and the crowd",
+        "Lock venue, talent, and vendors",
+        "Build the buildup and the buzz",
+        "Run the event end to end",
+        "Wrap with numbers and next steps"
+      ],
+      "related": [
+        "production-experience",
+        "venue-scouting",
+        "artist-booking"
+      ]
+    },
+    {
+      "slug": "brand-development",
+      "number": "15",
+      "name": "Brand Development",
+      "tag": "Built To Be Seen",
+      "headline": "We build brands with backbone.",
+      "blurb": "A brand is more than a logo. We set the strategy, design the look, write the voice, and plan the launch. Local roots, big reach, a brand that stands for something.",
+      "sections": [
+        {
+          "title": "Brand strategy",
+          "items": [
+            "Positioning that carves out your space",
+            "Target audience defined sharp"
+          ]
+        },
+        {
+          "title": "Visual identity",
+          "items": [
+            "Logo that holds up everywhere",
+            "Colors with their own signature",
+            "Typography that sets the tone"
+          ]
+        },
+        {
+          "title": "Brand guidelines",
+          "items": [
+            "Communication that stays consistent",
+            "Tone of voice that sounds like you"
+          ]
+        },
+        {
+          "title": "Launch strategy",
+          "items": [
+            "Market introduction with momentum",
+            "Campaign planning that makes an entrance"
+          ]
+        }
+      ],
+      "process": [
+        "Dig into the market and the audience",
+        "Set positioning and strategy",
+        "Design the identity and guidelines",
+        "Plan the launch campaign",
+        "Go live and build the reach"
+      ],
+      "related": [
+        "product-design",
+        "social-media-management",
+        "hospitality-consultancy"
+      ]
+    },
+    {
+      "slug": "vendor-management",
+      "number": "16",
+      "name": "Vendor Management",
+      "tag": "The Right Hands",
+      "headline": "We line up the right crew.",
+      "blurb": "Great events run on great vendors. We source them, onboard them, negotiate hard, and keep the quality tight. You get reliable partners, we keep them in line.",
+      "sections": [
+        {
+          "title": "Services",
+          "items": [
+            "Vendor sourcing from a tested network",
+            "Vendor onboarding done right",
+            "Negotiations that hold the line on cost",
+            "Quality control before and during",
+            "Performance monitoring across the board"
+          ]
+        },
+        {
+          "title": "Categories",
+          "items": [
+            "Decorators",
+            "Caterers",
+            "Photographers",
+            "Production partners"
+          ]
+        }
+      ],
+      "process": [
+        "Scope the vendor needs",
+        "Source and shortlist partners",
+        "Negotiate and onboard",
+        "Monitor quality on the ground",
+        "Review performance and refine"
+      ],
+      "related": [
+        "production-experience",
+        "hospitality-consultancy",
+        "curated-events"
+      ]
+    },
+    {
+      "slug": "product-design",
+      "number": "17",
+      "name": "Product Design",
+      "tag": "Designed To Sell",
+      "headline": "Packaging that earns the shelf.",
+      "blurb": "Design that moves product. Labels to launch kits, we craft packaging and merch that look sharp and sell hard. The kind of detail people pick up and keep.",
+      "sections": [
+        {
+          "title": "Packaging design",
+          "items": [
+            "Labels that pop on the shelf",
+            "Boxes built to impress",
+            "Product branding that holds together"
+          ]
+        },
+        {
+          "title": "Merchandise design",
+          "items": [
+            "Corporate gifts worth keeping",
+            "Promotional products people use"
+          ]
+        },
+        {
+          "title": "Product presentation",
+          "items": [
+            "Mockups that sell the idea",
+            "Launch kits ready to ship"
+          ]
+        }
+      ],
+      "process": [
+        "Understand the product and the buyer",
+        "Sketch concepts and directions",
+        "Design packaging and merch",
+        "Mock up and refine",
+        "Hand off production-ready files"
+      ],
+      "related": [
+        "brand-development",
+        "hamper-planning",
+        "vendor-management"
+      ]
+    }
+  ],
+  "solutions": [
+    {
+      "slug": "for-brands",
+      "name": "For Brands",
+      "headline": "Get your brand on every feed.",
+      "blurb": "Launches, activations and creator buzz built for reach. We put your brand where Nagpur is already looking, then make the moment travel far past the room.",
+      "offerings": [
+        "Influencers",
+        "PR",
+        "Activations",
+        "Launches"
+      ],
+      "related": [
+        "influencer-collaborations",
+        "pr-media-coverage",
+        "social-media-management",
+        "brand-development"
+      ]
+    },
+    {
+      "slug": "for-restaurants",
+      "name": "For Restaurants & Cafes",
+      "headline": "Pack the tables, every night.",
+      "blurb": "A quiet homegrown cafe to a buzzing rooftop, we fill the calendar and the floor. Marketing that pulls crowds, events that keep them, advice that makes it stick.",
+      "offerings": [
+        "Marketing",
+        "Events",
+        "Consultancy"
+      ],
+      "related": [
+        "social-media-management",
+        "curated-events",
+        "hospitality-consultancy",
+        "bar-takeover"
+      ]
+    },
+    {
+      "slug": "for-hotels",
+      "name": "For Hotels",
+      "headline": "Weekends worth booking out for.",
+      "blurb": "We run your banquet, your rooftop and your guest experience like one tight crew. Events that sell rooms, hospitality that earns reviews, brand tie-ups that fill the lobby.",
+      "offerings": [
+        "Event Management",
+        "Hospitality",
+        "Brand Collaborations"
+      ],
+      "related": [
+        "hospitality-management",
+        "curated-events",
+        "brand-development",
+        "beverage-catering"
+      ]
+    },
+    {
+      "slug": "for-artists",
+      "name": "For Artists",
+      "headline": "We handle the business, you play.",
+      "blurb": "Bookings, brand deals and press, all sorted. We manage the calendar, chase the bag and get your name in the right places so you can stay locked on the craft.",
+      "offerings": [
+        "Artist Management",
+        "Brand Deals",
+        "PR"
+      ],
+      "related": [
+        "artist-management",
+        "artist-booking",
+        "pr-media-coverage",
+        "influencer-collaborations"
+      ]
+    },
+    {
+      "slug": "for-organizers",
+      "name": "For Event Organizers",
+      "headline": "Your crew behind the crew.",
+      "blurb": "Big day, tight budget, zero room for error? We bring the production muscle, lock the vendors and scout the venue, so your show runs from doors-open to last call.",
+      "offerings": [
+        "Production",
+        "Vendor Management",
+        "Venue Support"
+      ],
+      "related": [
+        "production-experience",
+        "vendor-management",
+        "venue-scouting",
+        "post-event-analysis"
+      ]
+    }
+  ],
+  "clients": [
+    {
+      "category": "Restaurants",
+      "note": "Full-house nights, signature events and tables booked weeks out."
+    },
+    {
+      "category": "Cafes",
+      "note": "Turning a quiet homegrown cafe into the city's go-to hangout."
+    },
+    {
+      "category": "Clubs",
+      "note": "Bar takeovers, artist nights and lines down the block."
+    },
+    {
+      "category": "Hotels",
+      "note": "Banquets, rooftops and guest experiences run end to end."
+    },
+    {
+      "category": "FMCG Brands",
+      "note": "On-ground activations and sampling that move product, not just buzz."
+    },
+    {
+      "category": "Startups",
+      "note": "Launches and content that get a new name talked about fast."
+    },
+    {
+      "category": "Corporate Companies",
+      "note": "Offsites, conferences and brand events handled floor to finish."
+    }
+  ],
+  "portfolio": [
+    {
+      "slug": "midnight-mango-launch",
+      "project": "Midnight Mango Launch",
+      "client": "a regional cold-pressed juice brand",
+      "category": "Brand Launch",
+      "year": "2025",
+      "services": [
+        "Launch Strategy",
+        "Pop-Up Experience Design",
+        "On-Ground Activation",
+        "Content Capture"
+      ],
+      "objective": "Put a new summer juice flavor in 10,000 hands across Nagpur in one weekend.",
+      "execution": "We built a neon mango bar that rolled through three high-footfall spots, from Sitabuldi to a riverside lawn. Sampling crews ran flash games, a flavor-guess wall, and a free-refill loyalty stamp. Every cup was a photo prop, so the brand walked home in everyone's camera roll.",
+      "results": [
+        "11,400 samples poured in 48 hours",
+        "Sold out of launch stock at two retail partners",
+        "4,200 tagged posts in the first week"
+      ],
+      "color": "bg-orange-500/45",
+      "testimonial": {
+        "quote": "They didn't just hand out cups. They made the whole city taste it.",
+        "author": "Rohan Deshmukh",
+        "role": "Marketing Lead"
+      }
+    },
+    {
+      "slug": "bassline-after-dark",
+      "project": "Bassline After Dark",
+      "client": "an open-air event venue on the outskirts",
+      "category": "Music Night / Festival",
+      "year": "2025",
+      "services": [
+        "Full Show Production",
+        "Stage & Sound Design",
+        "Artist Liaison",
+        "Crowd Operations"
+      ],
+      "objective": "Run a two-stage night that feels national but stays homegrown.",
+      "execution": "From concept to last-song-of-the-night, we handled the full production. Two stages, a regional headline act, food trucks, and a light rig you could see from the highway. We ran the floor, the gates, and the green room so nobody felt a single hiccup.",
+      "results": [
+        "3,800 tickets sold, zero gate jams",
+        "Bar and food vendors up 40% on projection",
+        "Trending locally by 11 PM"
+      ],
+      "color": "bg-violet-600/45",
+      "testimonial": {
+        "quote": "Smoothest night we've ever thrown. The crew owned every corner.",
+        "author": "Aditya Kale",
+        "role": "Venue Partner"
+      }
+    },
+    {
+      "slug": "rooftop-rewind-sundays",
+      "project": "Rooftop Rewind Sundays",
+      "client": "a homegrown rooftop cafe",
+      "category": "Restaurant / Cafe Growth",
+      "year": "2024",
+      "services": [
+        "Weekly Programming",
+        "Social Content",
+        "Community Building"
+      ],
+      "objective": "Turn a quiet rooftop into the city's go-to Sunday hang.",
+      "execution": "We built a recurring acoustic-and-brunch format with a rotating local artist lineup. A simple referral table, a signature mocktail, and weekly reels did the heavy lifting. Slow Sundays became a waitlist.",
+      "results": [
+        "Sunday covers up 3x in eight weeks",
+        "Average table spend up 22%",
+        "A standing waitlist by week six"
+      ],
+      "color": "bg-emerald-500/45",
+      "testimonial": {
+        "quote": "We went from empty chairs to a waitlist. Sundays are ours now.",
+        "author": "Sneha Patil",
+        "role": "Cafe Owner"
+      }
+    },
+    {
+      "slug": "neon-monsoon-takeover",
+      "project": "Neon Monsoon Takeover",
+      "client": "a downtown cocktail bar",
+      "category": "Bar Takeover",
+      "year": "2025",
+      "services": [
+        "Theme & Décor",
+        "Guest Mixologist Booking",
+        "DJ & Lighting",
+        "Promo Run"
+      ],
+      "objective": "Pack a midweek slow night with a one-off monsoon-themed takeover.",
+      "execution": "We flipped the room into a rain-soaked neon jungle for one Wednesday. A guest mixologist built a four-drink monsoon menu, the DJ kept it deep, and the promo crew filled every barstool. One night, full house, line out the door.",
+      "results": [
+        "Highest single-night revenue of the quarter",
+        "Bar at capacity by 9:30 PM",
+        "Two more takeovers booked on the spot"
+      ],
+      "color": "bg-sky-500/45",
+      "testimonial": {
+        "quote": "Our slowest night turned into the busiest. They just get the room.",
+        "author": "Karan Bhattad",
+        "role": "Bar Manager"
+      }
+    },
+    {
+      "slug": "homegrown-heroes-campaign",
+      "project": "Homegrown Heroes Campaign",
+      "client": "a regional fashion label",
+      "category": "Influencer Campaign",
+      "year": "2024",
+      "services": [
+        "Creator Sourcing",
+        "Campaign Direction",
+        "Content Production"
+      ],
+      "objective": "Make a local label feel like a citywide movement before festival season.",
+      "execution": "We cast a tight crew of Nagpur creators who actually wear the brand, not just post it. One shoot day, real streets, real fits, a campaign built around city pride. Then we seeded it across reels and stories with a single shoppable link.",
+      "results": [
+        "1.2M combined reach across creators",
+        "Online store traffic up 65%",
+        "Best-selling drop sold out in 5 days"
+      ],
+      "color": "bg-rose-500/45",
+      "testimonial": {
+        "quote": "They found the right faces and made us look like the city's brand.",
+        "author": "Meghana Joshi",
+        "role": "Brand Head"
+      }
+    },
+    {
+      "slug": "golden-hour-wedding-series",
+      "project": "Golden Hour Wedding Series",
+      "client": "a corporate group's leadership offsite and family wedding",
+      "category": "Corporate / Wedding Production",
+      "year": "2025",
+      "services": [
+        "End-to-End Production",
+        "Vendor Management",
+        "Stage & Décor",
+        "Guest Experience"
+      ],
+      "objective": "Run a back-to-back corporate offsite and a 600-guest wedding without a single dropped ball.",
+      "execution": "You dream it, we run the floor. We managed venues, vendors, timelines, and a 600-guest seated dinner across three days. From the keynote stage to the sangeet lighting, every cue was ours to hit.",
+      "results": [
+        "Three days, 600+ guests, zero timeline slips",
+        "Single point of contact for 22 vendors",
+        "Both events delivered under budget"
+      ],
+      "color": "bg-amber-500/45",
+      "testimonial": {
+        "quote": "Three days, two events, one team that never blinked. Flawless.",
+        "author": "Vikram Agrawal",
+        "role": "Family Spokesperson"
+      }
+    }
+  ],
+  "testimonials": [
+    {
+      "quote": "We turned to them with a half-baked idea and they handed back a sold-out night.",
+      "author": "Priya Nandurkar",
+      "role": "Founder",
+      "company": "a homegrown dessert cafe"
+    },
+    {
+      "quote": "Local roots, big reach. That line is the whole reason our launch worked.",
+      "author": "Saurabh Thakre",
+      "role": "Marketing Manager",
+      "company": "an FMCG snack brand"
+    },
+    {
+      "quote": "Most agencies send slides. This crew shows up and actually runs the floor.",
+      "author": "Anjali Wankhede",
+      "role": "Operations Head",
+      "company": "a multi-outlet restaurant group"
+    },
+    {
+      "quote": "They booked the artists, the lights, the crowd. We just enjoyed our own party.",
+      "author": "Nikhil Raut",
+      "role": "Co-Owner",
+      "company": "a rooftop lounge"
+    },
+    {
+      "quote": "From the first call to the last song, it was their hands on everything. No stress.",
+      "author": "Pooja Chandak",
+      "role": "Brand Manager",
+      "company": "a regional apparel label"
+    },
+    {
+      "quote": "They made a small budget look like a citywide takeover. Worth every rupee.",
+      "author": "Harshad Dhote",
+      "role": "Owner",
+      "company": "a craft brewery taproom"
+    }
+  ],
+  "posts": [
+    {
+      "slug": "nagpur-event-trends-2025",
+      "category": "Event Trends",
+      "date": "Jun 2025",
+      "read": "6 min",
+      "title": "Event trends owning Nagpur floors in 2025",
+      "excerpt": "The formats pulling crowds this year aren't the ones you'd guess. Here's what's actually filling rooms across the city.",
+      "body": [
+        {
+          "type": "p",
+          "text": "Every season has a sound. This one in Nagpur is loud, local and built for the camera. We've run enough floors over the last few months to spot the shift, and it's not subtle. The big stage isn't going anywhere, but the way crowds want to experience a night has changed fast."
+        },
+        {
+          "type": "h",
+          "text": "Smaller rooms, bigger nights"
+        },
+        {
+          "type": "p",
+          "text": "The 12,000-footfall festival still matters. But homegrown brands and lounges are leaning into intimate 300-capacity rooms where the energy never thins out. A packed small room beats a half-full big one every single time, and the city has figured that out."
+        },
+        {
+          "type": "p",
+          "text": "Curated guest lists, one tight stage, no dead corners. That's the brief we keep getting. It's cheaper to produce and it photographs like a dream."
+        },
+        {
+          "type": "h",
+          "text": "What's actually trending"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Hybrid day-to-night formats — a market by 4, a gig by 9",
+            "Regional food pop-ups built into the floor plan, not bolted on",
+            "Sundown sessions on rooftops, timed to the actual sunset",
+            "Interactive brand corners people queue to shoot, not skip",
+            "Local acts headlining over imported names"
+          ]
+        },
+        {
+          "type": "h",
+          "text": "The takeaway"
+        },
+        {
+          "type": "p",
+          "text": "Crowds want to feel like they're inside the moment, not watching it from row forty. Design for the room first, the feed second, and the night runs itself. That's where Nagpur is heading, and we're already there."
+        }
+      ]
+    },
+    {
+      "slug": "experiential-marketing-that-sticks",
+      "category": "Marketing Insights",
+      "date": "May 2025",
+      "read": "5 min",
+      "title": "Why experiential beats another ad spend",
+      "excerpt": "You can buy reach or you can build a memory. One scrolls past in two seconds, the other walks home with your crowd.",
+      "body": [
+        {
+          "type": "p",
+          "text": "Here's the uncomfortable bit. Most ad budgets buy attention people forget by lunch. A good experience buys something stickier — a story the crowd tells for you, for free, for weeks. That's the math we'd run before booking another round of static ads."
+        },
+        {
+          "type": "h",
+          "text": "Memory is the metric"
+        },
+        {
+          "type": "p",
+          "text": "Impressions feel good on a dashboard. But a brand that put a crowd inside something — a launch they touched, a moment they queued for — gets remembered. We've watched a single rooftop activation outrun a month of boosted posts on pure word of mouth."
+        },
+        {
+          "type": "p",
+          "text": "When a regional fashion label let people style their own looks at a pop-up instead of just handing out flyers, the footfall stuck around for an hour. Flyers get a glance. Experiences get time."
+        },
+        {
+          "type": "h",
+          "text": "Where the budget actually works"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "One unforgettable moment over ten forgettable touchpoints",
+            "Designing the shareable beat into the experience from day one",
+            "Letting the crowd make your content instead of paying for it",
+            "Measuring conversations started, not just eyeballs counted"
+          ]
+        },
+        {
+          "type": "h",
+          "text": "Run the room, not the feed"
+        },
+        {
+          "type": "p",
+          "text": "Reach is rented. A memory is owned. Build the second one and the first one shows up on its own. That's not a slogan — it's just what we keep watching happen on the floor."
+        }
+      ]
+    },
+    {
+      "slug": "hospitality-tips-event-guests",
+      "category": "Hospitality Tips",
+      "date": "Apr 2025",
+      "read": "5 min",
+      "title": "Hospitality that guests actually feel",
+      "excerpt": "The little things decide whether a guest leaves glowing or just leaves. Here's what we sweat behind the scenes.",
+      "body": [
+        {
+          "type": "p",
+          "text": "A great night isn't only the headline act or the lighting rig. It's the hundred quiet decisions a guest never notices — until one goes wrong. Hospitality is the unglamorous craft that makes a big event feel effortless, and it's the first thing we lock down."
+        },
+        {
+          "type": "h",
+          "text": "First five minutes, last five minutes"
+        },
+        {
+          "type": "p",
+          "text": "Guests judge a night by how they arrive and how they leave. A clean, fast entry sets the mood. A smooth exit sends them home happy. Everything in between is forgiven if the bookends land. So we staff the door and the load-out like they matter most, because they do."
+        },
+        {
+          "type": "h",
+          "text": "The details we never skip"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Real wayfinding — nobody should have to ask where the bar is",
+            "Water and shade planned for, not improvised at peak",
+            "Staff briefed to read the room, not just hold a post",
+            "Queues that move, or don't exist at all",
+            "A named point person for every section of the floor"
+          ]
+        },
+        {
+          "type": "h",
+          "text": "Warmth scales when you plan for it"
+        },
+        {
+          "type": "p",
+          "text": "Hospitality isn't a vibe you hope for. It's a system you build. Train the crew, map the flow, sweat the small stuff — and a room of strangers walks out feeling like regulars. That's the whole job."
+        }
+      ]
+    },
+    {
+      "slug": "influencer-marketing-nagpur-brands",
+      "category": "Influencer Marketing",
+      "date": "Mar 2025",
+      "read": "6 min",
+      "title": "Local creators beat big follower counts",
+      "excerpt": "A regional creator with a real crowd will out-pull a national name every time. Here's how we pick and brief them.",
+      "body": [
+        {
+          "type": "p",
+          "text": "Big follower numbers look impressive on a deck and convert like nothing on the ground. For a Nagpur brand trying to fill a room or move stock, a creator with 8,000 genuinely local followers beats a national page with a million scattered ones. Reach is loud. Trust is what sells."
+        },
+        {
+          "type": "h",
+          "text": "Pick the room, not the number"
+        },
+        {
+          "type": "p",
+          "text": "We look at who a creator's audience actually is before anything else. A homegrown cafe doesn't need a metro influencer — it needs the food page everyone in the neighbourhood already saves. Local roots, real reach. That overlap is where the bookings come from."
+        },
+        {
+          "type": "h",
+          "text": "How we brief creators"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Hand them a moment, not a script — let their voice carry it",
+            "One clear ask per post, never a wishlist of five",
+            "Invite them into the build so the content feels lived-in",
+            "Track saves, DMs and walk-ins, not just likes",
+            "Build relationships across seasons, not one-off drops"
+          ]
+        },
+        {
+          "type": "h",
+          "text": "The long game"
+        },
+        {
+          "type": "p",
+          "text": "The brands winning here aren't renting reach once. They're building a bench of local creators who genuinely rate them and show up again. Pay for trust, not headcount, and the audience follows. Every time."
+        }
+      ]
+    },
+    {
+      "slug": "restaurant-growth-strategies-events",
+      "category": "Restaurant Growth Strategies",
+      "date": "Feb 2025",
+      "read": "7 min",
+      "title": "Turn slow nights into your busiest",
+      "excerpt": "Empty Tuesdays are a programming problem, not a fate. Here's how restaurants in Nagpur flip the quiet shifts.",
+      "body": [
+        {
+          "type": "p",
+          "text": "Weekends sell themselves. The real growth hides in the nights nobody's coming — the dead Tuesday, the slow early evening. Most restaurants discount their way through them. The sharper move is to give people a reason to show up that has nothing to do with price."
+        },
+        {
+          "type": "h",
+          "text": "Program the quiet nights"
+        },
+        {
+          "type": "p",
+          "text": "A rooftop lounge we'd point to didn't drop its prices to fix midweek. It built a recurring acoustic night and an open-decks evening. Same kitchen, same staff, suddenly a calendar people plan around. A reason beats a discount every single time."
+        },
+        {
+          "type": "h",
+          "text": "Moves that actually move covers"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "A signature weekly night people can rely on and repeat",
+            "Collabs with a local creator or homegrown brand for cross-crowds",
+            "A limited menu drop that creates a deadline to visit",
+            "Turning regulars into a list you can actually message",
+            "Designing one corner of the room that's worth a photo"
+          ]
+        },
+        {
+          "type": "h",
+          "text": "Make the room a destination"
+        },
+        {
+          "type": "p",
+          "text": "Food gets people in once. A reason to come back gets you a business. Stop competing on the cheapest plate and start owning a night of the week. That's the difference between a busy weekend and a full calendar."
+        }
+      ]
+    },
+    {
+      "slug": "nagpur-nightlife-2025-update",
+      "category": "Nightlife Industry Updates",
+      "date": "Dec 2024",
+      "read": "5 min",
+      "title": "Where Nagpur nightlife is headed next",
+      "excerpt": "The scene's growing up fast — bigger acts, smarter rooms, earlier nights. Here's what we're watching going into 2025.",
+      "body": [
+        {
+          "type": "p",
+          "text": "Nagpur's nightlife used to be a handful of reliable rooms and not much else. Not anymore. Over the last year the scene has matured fast — new venues, better production, crowds that travel across the city for the right night. Going into 2025, here's where it's all pointing."
+        },
+        {
+          "type": "h",
+          "text": "Rooftops are running the city"
+        },
+        {
+          "type": "p",
+          "text": "Open-air is winning. Rooftop lounges and sundown sessions have become the default for a good night out, and venues are building their whole programming around the golden hour. The smart ones start earlier and end cleaner — a full night, wrapped before it ever feels late."
+        },
+        {
+          "type": "h",
+          "text": "What the next year looks like"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "More regional acts headlining over imported DJs",
+            "Earlier start times catching the after-work crowd",
+            "Venues investing in real sound and light, not rentals",
+            "Tighter capacities chasing energy over raw numbers",
+            "Food and nightlife blurring into one experience"
+          ]
+        },
+        {
+          "type": "h",
+          "text": "Built for the long run"
+        },
+        {
+          "type": "p",
+          "text": "The rooms that last won't be the loudest — they'll be the best run. Cleaner production, smarter crowds, a real point of view. Nagpur's nightlife is finally playing the long game, and the next year is going to be its best yet."
+        }
+      ]
+    }
+  ]
+}
