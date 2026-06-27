@@ -127,23 +127,26 @@ export default function WhyUs({ showHeader = true }) {
                 key={r.title}
                 data-index={i}
                 ref={(el) => (cards.current[i] = el)}
-                className={`rounded-3xl border p-6 transition-all duration-300 sm:p-8 lg:p-10 ${
+                // Mobile: every card is solid + full opacity (no scrollytelling
+                // dimming, since the panel doesn't pin). The active-highlight
+                // only kicks in at lg.
+                className={`rounded-3xl border border-white/10 bg-ink-soft p-6 sm:p-8 lg:p-10 lg:transition-all lg:duration-300 ${
                   i === active
-                    ? "border-accent/50 bg-ink-soft shadow-xl shadow-black/20"
-                    : "border-white/10 bg-ink-soft/70 opacity-80"
+                    ? "lg:border-accent/50 lg:shadow-xl lg:shadow-black/20"
+                    : "lg:bg-ink-soft/70 lg:opacity-80"
                 }`}
               >
                 <div className="flex items-center gap-4">
                   <span
-                    className={`font-mono text-sm transition-colors ${
-                      i === active ? "text-accent" : "text-neutral-500"
+                    className={`font-mono text-sm text-neutral-500 lg:transition-colors ${
+                      i === active ? "lg:text-accent" : ""
                     }`}
                   >
                     {pad(i + 1)}
                   </span>
                   <span
-                    className={`h-px flex-1 transition-colors ${
-                      i === active ? "bg-accent/40" : "bg-white/10"
+                    className={`h-px flex-1 bg-white/10 lg:transition-colors ${
+                      i === active ? "lg:bg-accent/40" : ""
                     }`}
                   />
                 </div>
