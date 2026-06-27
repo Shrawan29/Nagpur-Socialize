@@ -162,10 +162,10 @@ export default function Contact() {
                 <span className="h-7 w-1.5 rounded-full bg-[rgba(255,255,255,0.16)]" />
               </motion.div>
               <PagerButton
-                href={SITE.linkedin}
-                external={isExternal(SITE.linkedin)}
+                href={SITE.facebook}
+                external={isExternal(SITE.facebook)}
               >
-                LinkedIn
+                Facebook
               </PagerButton>
               <PagerButton
                 href={SITE.instagram}
