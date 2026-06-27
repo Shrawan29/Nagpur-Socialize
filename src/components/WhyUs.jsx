@@ -57,9 +57,9 @@ export default function WhyUs({ showHeader = true }) {
   return (
     <section id="why">
       <div className="mx-auto max-w-7xl px-5 py-16 sm:px-8 sm:py-24 md:py-28">
-        <div className="grid gap-10 lg:grid-cols-2 lg:gap-16">
+        <div className="grid grid-cols-1 gap-10 lg:grid-cols-2 lg:gap-16">
           {/* Sticky left panel */}
-          <div className="self-start lg:sticky lg:top-24">
+          <div className="min-w-0 self-start lg:sticky lg:top-24">
             {showHeader && (
               <>
                 <p className="font-mono text-xs tracking-[0.3em] text-accent-2">
@@ -121,7 +121,7 @@ export default function WhyUs({ showHeader = true }) {
           </div>
 
           {/* Scrolling right column */}
-          <div className="space-y-5">
+          <div className="min-w-0 space-y-5">
             {REASONS.map((r, i) => (
               <article
                 key={r.title}
