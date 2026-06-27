@@ -21,7 +21,7 @@ export default function ServicesGrid({ limit, showHeader = true }) {
           {limit && (
             <a
               href="#/services"
-              className="font-mono text-sm text-neutral-400 transition-colors hover:text-white"
+              className="inline-flex min-h-[40px] items-center font-mono text-sm text-neutral-400 transition-colors hover:text-white"
             >
               All services →
             </a>

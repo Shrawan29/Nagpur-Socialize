@@ -73,7 +73,7 @@ export default function Hero() {
           variants={fade}
           initial="hidden"
           animate="show"
-          className="flex items-center gap-2.5 font-mono text-xs tracking-[0.35em] text-neutral-400"
+          className="flex flex-wrap items-center gap-2.5 font-mono text-xs tracking-[0.2em] text-neutral-400 sm:tracking-[0.35em]"
         >
           <span className="relative flex h-2 w-2">
             <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-accent opacity-75" />
@@ -87,7 +87,7 @@ export default function Hero() {
           initial="hidden"
           animate="show"
           custom={1}
-          className="mt-8 max-w-4xl font-display text-6xl font-extrabold leading-[0.95] tracking-[-0.02em] sm:text-8xl"
+          className="mt-8 max-w-4xl font-display text-4xl font-extrabold leading-[0.95] tracking-[-0.02em] sm:text-6xl md:text-8xl"
         >
           Experiences that connect{" "}
           <span className="text-accent">brands &amp; people.</span>
@@ -124,7 +124,7 @@ export default function Hero() {
           </a>
           <a
             href="#/work"
-            className="group inline-flex items-center gap-2 font-mono text-sm font-bold text-neutral-300 transition-colors duration-200 hover:text-white"
+            className="group inline-flex items-center gap-2 py-2.5 font-mono text-sm font-bold text-neutral-300 transition-colors duration-200 hover:text-white"
           >
             VIEW OUR WORK
             <span className="transition-transform duration-200 group-hover:translate-x-1">

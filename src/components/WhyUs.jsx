@@ -56,7 +56,7 @@ export default function WhyUs({ showHeader = true }) {
 
   return (
     <section id="why">
-      <div className="mx-auto max-w-7xl px-5 py-24 sm:px-8 sm:py-28">
+      <div className="mx-auto max-w-7xl px-5 py-16 sm:px-8 sm:py-24 md:py-28">
         <div className="grid gap-10 lg:grid-cols-2 lg:gap-16">
           {/* Sticky left panel */}
           <div className="self-start lg:sticky lg:top-24">
@@ -126,7 +126,7 @@ export default function WhyUs({ showHeader = true }) {
                 key={r.title}
                 data-index={i}
                 ref={(el) => (cards.current[i] = el)}
-                className={`rounded-3xl border p-8 transition-all duration-300 sm:p-10 ${
+                className={`rounded-3xl border p-6 transition-all duration-300 sm:p-8 lg:p-10 ${
                   i === active
                     ? "border-accent/50 bg-ink-soft shadow-xl shadow-black/20"
                     : "border-white/10 bg-ink-soft/70 opacity-80"

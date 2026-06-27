@@ -40,7 +40,7 @@ export default function PageHero({
           initial={{ opacity: 0, y: 24 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.7, delay: 0.05, ease: [0.22, 1, 0.36, 1] }}
-          className="mt-5 max-w-4xl font-display text-5xl font-bold leading-[0.98] tracking-tight sm:text-7xl"
+          className="mt-5 max-w-4xl font-display text-4xl font-bold leading-[0.98] tracking-tight break-words sm:text-7xl"
         >
           {title}
         </motion.h1>
@@ -50,7 +50,7 @@ export default function PageHero({
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.7, delay: 0.15 }}
-            className="mt-7 max-w-2xl text-lg leading-relaxed text-neutral-400"
+            className="mt-7 max-w-2xl text-base leading-relaxed text-neutral-400 sm:text-lg"
           >
             {blurb}
           </motion.p>

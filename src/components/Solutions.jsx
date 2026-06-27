@@ -34,12 +34,12 @@ export default function Solutions() {
       </Reveal>
 
       {/* Expanding panel row — fixed height keeps everything on one screen */}
-      <div className="flex h-[58vh] min-h-[420px] gap-3 sm:gap-4">
+      <div className="flex flex-col gap-4 lg:h-[58vh] lg:min-h-[420px] lg:flex-row lg:gap-4">
         {solutions.map((s, i) => (
           <div
             key={s.slug}
             // grow:1 collapsed, grow:6 on hover → siblings squeeze down
-            className="group relative grow basis-0 cursor-pointer overflow-hidden rounded-[2rem] border border-white/12 bg-ink-soft shadow-2xl shadow-black/40 transition-[flex-grow] duration-500 ease-out hover:grow-[6]"
+            className="group relative cursor-pointer overflow-hidden rounded-[1.25rem] border border-white/12 bg-ink-soft shadow-2xl shadow-black/40 lg:grow lg:basis-0 lg:rounded-[2rem] lg:transition-[flex-grow] lg:duration-500 lg:ease-out lg:hover:grow-[6]"
           >
             {/* tint + dot texture */}
             <div
@@ -61,7 +61,7 @@ export default function Solutions() {
             </span>
 
             {/* COLLAPSED label — vertical heading anchored like a spine, fades out on hover */}
-            <div className="absolute inset-0 flex items-end justify-start p-6 transition-opacity duration-300 group-hover:pointer-events-none group-hover:opacity-0">
+            <div className="absolute inset-0 hidden items-end justify-start p-6 lg:flex lg:transition-opacity lg:duration-300 lg:group-hover:pointer-events-none lg:group-hover:opacity-0">
               <h3 className="whitespace-nowrap font-display text-3xl font-bold leading-none tracking-tight [writing-mode:vertical-rl] rotate-180 sm:text-4xl">
                 {s.name}
               </h3>

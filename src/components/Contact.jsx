@@ -123,7 +123,7 @@ export default function Contact() {
               </p>
               <a
                 href={mailHref}
-                className="relative mt-1.5 block break-all text-center text-2xl font-bold leading-tight transition-opacity hover:opacity-80 sm:text-[2rem]"
+                className="relative mt-1.5 block break-all text-center text-xl font-bold leading-tight transition-opacity hover:opacity-80 sm:text-2xl md:text-[2rem]"
               >
                 {SITE.email}
                 <span className="pager-cursor" aria-hidden="true">
@@ -137,7 +137,7 @@ export default function Contact() {
 
             {/* Controls — staggered in, popped forward a touch */}
             <motion.div
-              className="mt-5 flex items-center gap-2.5 sm:gap-3"
+              className="mt-5 flex flex-wrap items-center gap-2.5 sm:flex-nowrap sm:gap-3"
               style={{ transform: "translateZ(14px)" }}
               variants={{
                 hidden: {},
@@ -186,7 +186,7 @@ export default function Contact() {
 
 function PagerButton({ href, children, primary = false, external = false }) {
   const base =
-    "flex-1 whitespace-nowrap rounded-[1.1rem] px-3 py-3.5 text-center font-mono text-xs font-bold transition-transform duration-200 hover:-translate-y-0.5 sm:text-sm";
+    "flex-1 rounded-[1.1rem] px-2.5 py-3.5 text-center font-mono text-xs font-bold transition-transform duration-200 hover:-translate-y-0.5 sm:whitespace-nowrap sm:px-3 sm:text-sm";
   return (
     <motion.a
       href={href}

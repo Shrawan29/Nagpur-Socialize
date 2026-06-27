@@ -24,7 +24,7 @@ function TestimonialCard({ position, item, cardSize, onMove, animate }) {
       aria-current={isCenter ? "true" : undefined}
       aria-label={isCenter ? undefined : `Show testimonial from ${item.by}`}
       onClick={() => onMove(position)}
-      className={`absolute left-1/2 top-1/2 flex select-none flex-col justify-between border-2 p-8 text-left focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2 focus-visible:ring-offset-ink ${
+      className={`absolute left-1/2 top-1/2 flex select-none flex-col justify-between border-2 p-5 text-left focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2 focus-visible:ring-offset-ink sm:p-8 ${
         animate ? "transition-all duration-500 ease-in-out" : ""
       } ${
         isCenter

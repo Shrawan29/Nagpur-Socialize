@@ -49,7 +49,7 @@ export default function WhyChooseHero() {
           initial="hidden"
           animate="show"
           style={{ WebkitTextStroke: "0.02em currentColor", paintOrder: "stroke" }}
-          className="max-w-6xl font-poster text-6xl uppercase leading-[0.95] tracking-tight sm:text-[150px] sm:leading-[0.92]"
+          className="max-w-6xl font-poster text-[40px] uppercase leading-[0.95] tracking-tight sm:text-[150px] sm:leading-[0.92]"
         >
           {words.map((w, i) => (
             <Fragment key={i}>
